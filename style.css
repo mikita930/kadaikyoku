@@ -9,4 +9,10 @@ h1{
 
 #result{
     text-align: center;
+    display: block;
+}
+
+#result1{
+    text-align: left;
+    display: inline-block;
 }
