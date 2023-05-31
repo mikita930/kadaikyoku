@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var selectElement = document.getElementById("yearSelect");
     var resultElement = document.getElementById("result1");
   
-    for (var year = 2011; year <= 2023; year++) {
+    for (var year = 2000; year <= 2023; year++) {
       var optionElement = document.createElement("option");
       optionElement.value = year;
       optionElement.textContent = year + "年";
@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded", function() {
           }
   
           resultElement.innerHTML = output;
-        //   resultElement.style.textAlign = "left"
         }
       };
       xhr.send();
