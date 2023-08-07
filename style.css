@@ -8,6 +8,7 @@ h1{
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+    overflow-y: auto;
 }
 
 
@@ -24,54 +25,14 @@ h1{
     font-weight: bold;
 }
 
+#onpu{
+    position: static;
+}
+
 body{
-    background-color:rgb(154, 161, 45);
+    background-color:rgb(93, 155, 139);
     background-image: url("suisougaku.jpg");
     background-blend-mode: overlay;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-/* #photo{
-    display:block;
-    margin:auto;
-    height: 700px;
-    width: 1000px;
-} */
-
-/* レスポンシブデザイン用のスタイル */
-@media screen and (max-width: 1024px){
-    h1 {
-        font-size: 40px;
-    }
-    
-    .select-container {
-        margin-top: 10px;
-    }
-    
-    #result1 {
-        font-size: 30px;
-    }
-
-    body{
-        background-image: url("tr.jpg")
-    }
-}
-
-@media screen and (max-width: 450px){
-    h1 {
-        font-size: 20px;
-    }
-    
-    .select-container {
-        margin-top: 50px;
-    }
-    
-    #result1 {
-        font-size: 17px;
-    }
-
-    body{
-        background-image: url("sax.jpg")
-    }
 }
