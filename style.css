@@ -2,6 +2,7 @@ h1{
     text-align: center;
     font-size: 60px;
     color:aliceblue;
+    position: relative;
 }
 
 .select-container{
@@ -26,7 +27,9 @@ h1{
 }
 
 #onpu{
-    position: static;
+    position: absolute;
+    top: 0;
+    right: 100px;
 }
 
 body{
