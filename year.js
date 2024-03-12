@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
     selectElement.addEventListener("change", function() {
       var selectedYear = selectElement.value;
-  
       // CSVファイル読み込み
       var xhr = new XMLHttpRequest();
       xhr.open("GET", "database.csv", true);
@@ -39,11 +38,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
   });
   
-// 画像要素を取得
-var onpu = document.getElementById("onpu");
-
-// 画像がクリックされた時の処理
-onpu.addEventListener("click", function() {
-  // YouTubeのサイトへリンクする
-  window.location.href = "http://ajba.or.jp/assignment.html";
-});
